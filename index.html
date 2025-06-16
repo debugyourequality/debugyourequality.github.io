@@ -10,27 +10,33 @@
             font-family: Palatino, sans-serif;
             margin: 10%;
             margin-top: 1%;
-            padding: 20px;
+            padding: 10px;
             background-color: #0f456e;
-            color: #5c534d
+            color: #5c534d;
+            font-size: 18px;
+            line-height: 1.15;
         }
         header {
             background: #a1a291;
             color: #;
-            padding: 10px 0;
+            padding: 5px 0;
             text-align: center;
         }
         header2 {
-            background: #c7c9db;
+            background: #a1a291;
             color: #ffffff;
-            padding: 10px 0;
+/*            padding: 5px 0;*/
             text-align: left;
         }
 
         h2 {
-            margin: 10px 0;
+            margin: 5px 0;
             font-size: 1.5em;
         }
+/*        h3 {
+            margin: 10px 0;
+            font-size: 1.5em;
+        }*/
         section {
             margin: 20px 0;
             background: #eae6d8;
@@ -67,22 +73,42 @@
 <header>
     <h1>Title IX: A Programmer's Perspective</h1>
     <h2>Fantastic Preys and Where to Find Them</h2>
+    <h3>Over-simplified, unstructured, ego, not yet scientific</h3>
+    <h3>Website code is GPT heavy, but contents are GPT free</h3>
+
 </header>
 
 
 <section id="index">
+    <h2>Abstract</h2>
+    <p>This work attempts to analyze the sexual assualt topic together with my own victim experience under the computational perspective. </p>
+
+    <p>
+    Highlighted contributions are
+    <ur>
+        <li>
+         Introducing <strong>cultural arbitraging under sexual assult context</strong>. 
+        </li>
+        <li>Propose HCI (human computer interaction) ideas for SA prevention and advocacy.
+        </li>
+        <li>Statistic modeling on some SA scenarios. </li>
+        <li>Some analogy, such as <strong>bug</strong>, coalescing STEM and psychological, social intuitions.</li>
+
+    </ur> 
+    </p>    
     <h2>Index</h2>
     <ul>
     <li><a href="#about">About the title and domain name</a></li>
 
-    <li>Cultural Arbitraging: an informal survey in terms of Chinese educational cycle #digital_humanity #text_mining #opinion_mining
+    <li><a href="#culturalarbitragin">Cultural Arbitraging</a>: an informal survey in terms of Chinese educational cycle #digital_humanity #text_mining #opinion_mining
         <ul>
         <li>Timeline of influentical events about sexual assult, especially in East Asia and/or educational environment #data_visualization</li>
-        <li>Bride hunting  (选妃) cultures in Chinese international student community. Proved true.</li>
+        <li>Bride hunting (选妃) cultures in Chinese international student community. Proved true.</li>
         <li>A guaranteed <strong>path</strong> to graduate school  (保研路). A myth among Chinese college students that the instituions often give a grad school ofter as <strong>mouth-shutting compensate</strong>.</li>
         <li>Unnecessary helps as lures: between the gap of decoupling of how everyday life and study works. Degree of coworks cultural gap.</li>
         <li>Following Yanjie Bian's theory on Chinese society. That people often believe that 'strong private connections' work as social capital, instead of 'weak professional connection'.</li>
         <li>文化大革命，矫枉过正的举报恐惧. Private</li>
+        <li>References</li>
         </ul>
     </li>
     <li>Modeling networks how many prepatrators on the reported victim number 23%: 260-560. Are they all reported? </li>
@@ -98,25 +124,29 @@
             <li>experience as evidence. evidence as evidence</li>
             <li>proof of always exists</li>
             <li>misinformation</li>
+            <li>Cornell as a Galapagos</li>
+
         </ul>
     </li>
     <li>Random social side intuitions.
         <ul>
-            <li>Baysian approach</li>
-            <li>Threats are always non-credible, but believing are always threatening </li>
-            <li>Dog whistling.</li>
-            <li>intuitionistic logic on psychological extreme. If it seems not ,it. Unless you believe. Evidence</li>
-            <li>Vulnerable bugs and how they might be programmed by the abuser or early envs.</li>
-            <li>experience as evidence. evidence as evidence</li>
-            <li>proof of always exists</li>
             <li>misinformation</li>
         </ul>
     </li>
 
-    <li>Research proposals on introducing computational methods on all nodes of SA prevention, interevene and education.</li>
+    <li>Proposals on SA prevention with computational methods #hci #cscw
+        <ul>
+            <li>Using GenAI to moderate SA reporting, hearning and education process.
+                <ul>Generate text image to visualized</ul>
+            </li>
+            <li>Using GenAI to moderate SA reporting, hearning and education process.</li>
+        </ul>
+    </li>
 
     </ul>
 </section>
+
+
 
 
 <section id="about">
@@ -124,8 +154,8 @@
     <p>The title "Title IX: A Programmer's Perspective - Fantastic Preys and Where to Find Them", and the domain name of the site "debug your equality" draws inspiration from notable references:</p>
     <ul>
         <li><strong>Computer Systems: A Programmer's Perspective:</strong> This textbook is one of the most popular textboks among computer science students.</li>
-        <li><strong>Fantastic Beasts and Where to Find Them:</strong> The 2016 movie explores magical creatures, paralleling the 'fantastic preys' we analyze in Title IX.</li>
-        <li><strong>Debugging:</strong> The first woman programmer who first coined the term "bug" for computer system flaw, paralleling sexual assults and underlined incentives are the 'bugs' of peronal well-being and overall equality of our world, from a tech women's perspective. </li>
+        <li><strong>Fantastic Beasts and Where to Find Them: </strong> The 2016 movie about exploring magical creatures, paralleling our analysis on why 'fantastic preys' are vulnerable.</li>
+        <li><strong>Debugging: </strong> Grace Hopper was the first woman programmer who first coined the term "bug" for computer system flaw, paralleling sexual assults and underlined incentives are the 'bugs' of peronal well-being and overall equality of our world, from a tech women's perspective. </li>
     </ul>
     <p>These themes highlight the intersection of technology, ethics, and education.</p>
     <div style="display: flex; justify-content: space-around;">
@@ -144,22 +174,76 @@
     </div>
 </section>
 
+
+
+<section>
+    <h2>On Terrence Tao's blue-eye island puzzle: why broadcasting and discussion are important; why some are responding late;</h2>
+
+    <p>
+    The blue-eyed island puzzle was proposed by Terrence Tao. 
+
+The key of the puzzle is the domino effect of "knowing everyone knows". Why the foreign story teller can make a difference. The key is 'common knowledge' which is crutial in game theory setting that 'everyone knows that everyone knows it'. 
+</p><p>
+How is it related to social setting of sexual assult? 
+
+- Discussing and/or broadcasting makes difference. 
+- The hazing number serves as a story teller. 
+- Researches are late but we still need them. 
+
+What I am proposing using this metaphor:
+- Some claims are oversimplified, ego, hyperat, not falsifiable, not scientific, are actually true but at the state before the story teller. 
+- Social norms are quite local. They all have the information but not actually rendered. 
+- There's lag in the cascading of 'suicide' during which arbitrage can happen. 
+- Abstraction of 'all know'
+- A strong education on what's right or wrong, and acknowledge the time window, some 'bad' are bad, not your fault. 
+- Suicide are story teller.
+- Information and belief.
+</p>
+    </p>
+
+</section>
+
 <section>
     <h2>On Development</h2>
 
-    <ul>Q:Why unordered lists(i.e. bullet points instead of numerical section numbers) for all the <strong>lists</strong> this page? A: This page is updating. Ordinal bullet points subject to change may gasligh. </ul>
+    <ul>
+        <li>
+        Q: Why unordered lists(i.e. bullet points instead of numerical section numbers) for all the <strong>lists</strong> this page? A: This page is updating. Ordinal bullet points subject to change may gasligh. </li>
+        <li>Q: What's the incentive for writing this? A: Short answer: Pain. Long Answer: 
+            <ul>
+                <li>From months ago, social media discussions raised awareness for but also triggerred me badly. Going back to Cornell's site</li>
+            </ul>
+        </li>
+        <li>Q: Courses, researches and learning at Cornell inspired this work? A: <ul>
+            <li>AEM 4190 Strategic Thinking, for game theory incentives especially on family settings</li>
+            <li>ORIE 6350 Game Theory and Mechanism Design, for rigorous math proofs, non-credible threat, mechanism design</li>
+            <li>INFO 6530, 3300 and RAship with INFO facaulty, for text mining, data visualization, human computer interaction, computer mediated communication and computational research on social topics</li>
+            <li>ORIE 3120 for data analysis, workflow simulation</li>
+            <li>CS 6180 for intuitionistic logic</li>
+            <li>CS 6850, 4820 for network theory</li>
+            <li>CS 2800 and TAship for this nerdy way of thinking</li>
+        </ul></li>
+        <li>Q: What happened during at Cornell?</li>
+        <li>Q: What happened these years?</li>
+        <li>Q: What are my factors to be a fantastic prey? A: Well, harsh question but I did go through them: 
+            <ul></ul>
+        </li>
+        <li>Q: What are the bugs? </ur>
+        <li>Q: Why aren't those reported timely? A: That's why I have to write this, or the hurt would be non-terminating. Don't let this happen again. Or just make this happen less. </li>
+        <li>Q: Anyone else involved in this work? A: Not yet. Nor did I distribute the work to others although the domain is publicly available, i.e. can be cited.</li>
+        <li>Q: What to expect from the readers? A: The most desired things is professional critique and/or discussion on this work. Research collaboration will be surprisingly great.</li>
+    </ul>
 
 </section>
 
 
 
-<header2>
+<header2 id="culturalarbitragin">
     <h1>Cultural Arbitraging</h1>
 </header2>
 <section>
     <h2>Section Intro</h2>
-    Arbitraging is a financial term that ... 
-    When a misconducted is not strictly prohibited, the time gap.
+The financial concept arbitraging, "buy low in one market" analouges scenarios where a prepatrator take advantage of definition gap of sexual assults, time window of information vacuum, social context difference, language gap, nostagia, uncertainty, etc. I provided pseudo-theoretical analysis and included discussion in Chinese social media. 
 
 </section>
 <section id=tl>
@@ -186,8 +270,6 @@
     <td>Germany</td>
     <td>Germany</td>
     <td>Germany</td>
-
-
   </tr>
   <tr>
     <td>Centro comercial Moctezuma</td>
@@ -204,9 +286,6 @@
 </table>
 </section>
 
-<header2>
-    <h1>Me, sufferred...</h1>
-</header2>
 
 <section></section>
 
